@@ -1,0 +1,250 @@
+#grad {
+    background-image: linear-gradient(to bottom right, #5b1783,  #1106ad);
+  }
+  #page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem; 
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+    font-family: Rubik Mono One, Serif;         
+  }
+  
+  .flexcontainer{
+    display: flex;
+    padding-right: 0;
+    padding-left: 0;
+    width: 52%;
+    height: 340px;
+    object-fit: scale-down;
+  }
+  
+  .mainImage {
+    position: absolute;
+    z-index: 0;
+  }
+  
+  .logo {
+    position: absolute;
+    z-index: 1;
+    bottom: 600px;
+    right: 0;
+    width: 400px;
+    height: 300px;
+    object-fit: scale-down;
+  }
+  
+  .logo2 {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 150px;
+    object-fit: scale-down;
+  }
+  
+  li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    font-family: Rubik Mono One, Serif;
+  }
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 195px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .row {
+    display: flex;
+  }
+  .row2{
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 50px;
+  }
+  .column {
+    position: relative;
+    width: 50%;
+  }
+  
+  .column2 {
+    flex: 25%;
+    padding: 50px;
+  }
+  .column2 {
+    position: relative;
+    width: 50%;
+    height: auto;
+    object-fit: scale-down;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .largeimage{
+      display: flex;
+      object-fit: scale-down;
+      top: 0;
+  }
+  .image3{
+    display: inline;
+    width: 100%;
+    min-height: 1000px;
+    max-height: 1000px;
+    vertical-align: top;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #666633;
+  }
+  
+  .column:hover .overlay {
+    opacity: 0.75;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .cart{
+      font-family: Rubik Mono One, Serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  .container{
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+  
+  .container > h1{
+      padding: 20px 0;
+  }
+  
+  .cart{
+      display: flex;
+  }
+  
+  .products{
+      flex: 1;
+  }
+  
+  .product{
+      display: flex;
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+      border: 1px solid rgb(248, 235, 235);
+      margin-bottom: 20px;
+  }
+  
+  .product > img{
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+  }
+  .product > img:hover{
+      transform: scale(1);
+  }
+  
+  .product-info{
+      padding: 20px;
+      width: 100%;
+      position: relative;
+  }
+  .product-remove{
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 25px;
+      background-color: rgb(255, 0, 0);
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+  }
+  
+  .product-remove:hover{
+      background-color: white;
+      color:#C00000;
+      font-weight: 600;
+      border: 1px solid #C00000;
+  }
+  
+  .product-quantity > input{
+      width: 40px;
+      padding: 5px;
+      text-align: center;
+  }
+  
+  .fa{
+      margin-right: 5px;
+  }
+  
+  .cart-total{
+      flex: 0.25;
+      margin-left: 20px;
+      padding: 20px;
+      height: 240px;
+      border: 1px solid silver;
+      border-radius: 5px;
+  }
+  
+  .cart-total p{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      font-size: 20px;
+  }
+  .cart-total a{
+      display: inline;
+      text-align: center;
+      height: 40px;
+      line-height: 40px;
+      background-color: #92D050;
+      color: white;
+      text-decoration: none;
+  }
+  .cart-total a:hover{
+      background-color: #92D050;
+  }
+  
