@@ -1,13 +1,7 @@
-window.onscroll = function() {myFunction()};
+function openNav() {
+  document.getElementById("popout").style.width = "175px";
+}
 
-var header = document.getElementById("header");
-
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
+function closeNav() {
+  document.getElementById("popout").style.width = "0";
 }
