@@ -5,3 +5,4 @@ function openNav() {
 function closeNav() {
   document.getElementById("popout").style.width = "0";
 }
+

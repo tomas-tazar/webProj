@@ -108,9 +108,9 @@ body {
 .sidepanel .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
+  left: 0px;
   font-size: 36px;
-  margin-left: 50px;
+  margin-left: 0px;
 }
 
 .openbtn {
@@ -126,16 +126,43 @@ body {
   background-color: #111;
 }
 
-.heading1 {
-  flex-wrap: wrap;
-  width: 89%;
+.collapse {
   position: absolute;
+  top: 10rem;
   font-family: "IBM Plex Serif";
+  background: linear-gradient(146deg, rgba(2,0,36,1) 0%, rgba(53,53,70,1) 35%, rgba(37,44,46,1) 92%);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapse:hover {
+  background-color: transparent;
+}
+
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapse:after {
+  content: '\02795';
   font-size: 13px;
   color: white;
-  top: 8rem;
-  padding-left: 25px;
-  text-align: left;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
 }
 
 .maintext {
