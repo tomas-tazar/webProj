@@ -11,7 +11,8 @@
 <style>
     
 </style>
-<header>
+<body>
+    <header>
     <div class="header">
         <h1> WELCOME </h1>
     </div>
@@ -31,9 +32,8 @@
             <i class="fa fa-twitter"></i>
         </a>
     </div>
-</header>
-
-<body>
+    </header>
+    
     <main>
     <div class="parent">
         <img src="" alt="" style="width:100%;" class="image1"/> 
@@ -49,27 +49,27 @@
         <a href="contact-me.html">contact me</a>
     </div>
 
-
-    <button type="button" class="collapse"> <b> some useful information </b> </button>
+    
+    <button type="button" class="collapsible"><b><u> some useful information that you can find on this website </u></b></button>
     <div class="content">
-        <p> blah blah </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 
     <div class="footer">
-        <h2>Tomas Tazar</h2>
+        <h2>&copy; Tomas Tazar</h2>
     </div>
 
     <script>
-        var coll = document.getElementsByClassName("collapse");
+        var coll = document.getElementsByClassName("collapsible");
         var i;
         for (i = 0; i < coll.length; i++) {
             coll[i].addEventListener("click", function() {
             this.classList.toggle("active");
-            var buttoncontent = this.nextElementSibling;
-            if (buttoncontent.style.maxHeight){
-                buttoncontent.style.maxHeight = null;
+            var button = this.nextElementSibling;
+            if (button.style.maxHeight){
+                button.style.maxHeight = null;
             } else {
-                buttoncontent.style.maxHeight = buttoncontent.scrollHeight + "px";
+                button.style.maxHeight = button.scrollHeight + "px";
             }
         });
         }

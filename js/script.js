@@ -1,5 +1,5 @@
 function openNav() {
-  document.getElementById("popout").style.width = "175px";
+  document.getElementById("popout").style.width = "225px";
 }
 
 function closeNav() {

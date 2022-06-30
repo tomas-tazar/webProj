@@ -27,9 +27,6 @@
 
 body{overflow-y: auto; overflow-x: hidden;}
 
-#grad {
-    background-image: linear-gradient(to bottom right, #f8f3fc,  #201f2c);
-}
 body {
   background-color: rgb(28, 30, 32);
 }
@@ -126,43 +123,62 @@ body {
   background-color: #111;
 }
 
-.collapse {
+.collapsible {
   position: absolute;
+  left: 20px;
   top: 10rem;
   font-family: "IBM Plex Serif";
-  background: linear-gradient(146deg, rgba(2,0,36,1) 0%, rgba(53,53,70,1) 35%, rgba(37,44,46,1) 92%);
+  background: transparent;
   color: white;
   cursor: pointer;
   padding: 18px;
-  width: 50%;
+  width: 27%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 17px;
 }
 
-.active, .collapse:hover {
-  background-color: transparent;
+.active, .collapsible:hover {
+  background-color: rgba(2,0,36,1);
+  transition: 1.5s ease-out;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .content {
+  top: 12.5rem;
+  font-family: "IBM Plex Serif";
+  color: white;
+  position:relative;
   padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
+  left: 12px;
+  width: 73%;
+  text-align: left;
+  background-color: rgba(11, 11, 12, 0.4);
+  overflow:hidden;
+  max-height: 0px;
   transition: max-height 0.2s ease-out;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
-.collapse:after {
+.collapsible:after {
+  padding-top: 2px;
   content: '\02795';
   font-size: 13px;
   color: white;
   float: right;
   margin-left: 5px;
+  transition: 1.5s ease-out;
 }
 
-.active:after {
+.active:after{
   content: "\2796";
+  background-color: transparent;
+  transition: 1.5s ease-out;
 }
 
 .maintext {
