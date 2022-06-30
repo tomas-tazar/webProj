@@ -213,8 +213,6 @@ body {
   background-size: cover;
 }
 
-.img1 { background-image: url("./images/background.jpg"); }
-
 .footer {
   position: fixed;
   font-family: "IBM";
