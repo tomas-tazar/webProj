@@ -148,18 +148,18 @@ body {
 }
 
 .content {
-  top: 12.5rem;
+  top: 14rem;
   font-family: "IBM Plex Serif";
   color: white;
-  position:relative;
+  position:absolute;
   padding: 0 18px;
-  left: 12px;
+  left: 18px;
   width: 73%;
   text-align: left;
   background-color: rgba(11, 11, 12, 0.4);
   overflow:hidden;
   max-height: 0px;
-  transition: max-height 0.2s ease-out;
+  transition: max-height 0.3s ease-out;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -205,8 +205,18 @@ body {
   text-align: left;
 }
 
+.image {
+  height: 50%;
+  width: 105%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img1 { background-image: url("./images/background.jpg"); }
+
 .footer {
-  position: absolute;
+  position: fixed;
   font-family: "IBM";
   font-size: 4px;
   color: white;
