@@ -222,6 +222,15 @@ body {
   background-repeat: no-repeat;
 }
 
+.workspace {
+  position: absolute;
+  top: 19.3rem;
+  left: 1210px;
+  width: 16.9%;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+}
+
 .gpro {
   position: absolute;
   top: 45rem;
