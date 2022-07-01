@@ -213,6 +213,63 @@ body {
   background-size: cover;
 }
 
+.monitor {
+  position: absolute;
+  top: 15rem;
+  left: 1180px;
+  width: 20%;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+}
+
+.gpro {
+  position: absolute;
+  top: 45rem;
+  left: 1200px;
+  width: 17%;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+}
+
+.tenet {
+  position: absolute;
+  top: 70rem;
+  left: 1200px;
+  width: 10%;
+  height: 26.3%;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+}
+
+.bladerunner {
+  position: absolute;
+  top: 70rem;
+  left: 1250px;
+  width: 10%;
+  height: 26.3%;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+}
+
+.interstellar {
+  position: absolute;
+  top: 70rem;
+  left: 1300px;
+  width: 10%;
+  height: 26.3%;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+}
+
+.goodtime {
+  position: absolute;
+  top: 70rem;
+  left: 1350px;
+  width: 10%;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+}
+
 .footer {
   position: fixed;
   font-family: "IBM";
