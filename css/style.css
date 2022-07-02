@@ -126,13 +126,29 @@ body {
 .collapsible {
   position: absolute;
   left: 20px;
-  top: 10rem;
+  top: 13rem;
   font-family: "IBM Plex Serif";
   background: transparent;
   color: white;
   cursor: pointer;
   padding: 18px;
   width: 27%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 17px;
+}
+
+.collapsiblecontent {
+  position: absolute;
+  left: 20px;
+  top: 20rem;
+  font-family: "IBM Plex Serif";
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 18.5%;
   border: none;
   text-align: left;
   outline: none;
@@ -147,8 +163,34 @@ body {
   border-radius: 10px;
 }
 
+.active, .collapsiblecontent:hover {
+  background-color: rgba(2,0,36,1);
+  transition: 1.5s ease-out;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
 .content {
-  top: 14rem;
+  top: 17rem;
+  font-family: "IBM Plex Serif";
+  color: white;
+  position:absolute;
+  padding: 0 18px;
+  left: 18px;
+  width: 73%;
+  text-align: left;
+  background-color: rgba(11, 11, 12, 0.4);
+  overflow:hidden;
+  max-height: 0px;
+  transition: max-height 0.3s ease-out;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.contentnav {
+  top: 24rem;
   font-family: "IBM Plex Serif";
   color: white;
   position:absolute;
@@ -172,6 +214,15 @@ body {
   color: white;
   float: right;
   margin-left: 5px;
+  transition: 1.5s ease-out;
+}
+
+.collapsiblecontent:after {
+  padding-top: 2px;
+  content: '\02795';
+  font-size: 13px;
+  color: white;
+  float: right;
   transition: 1.5s ease-out;
 }
 
@@ -211,6 +262,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 200px;
 }
 
 .monitor {
