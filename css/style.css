@@ -124,9 +124,9 @@ body {
 }
 
 .collapsible {
-  position: absolute;
+  position: relative;
   left: 20px;
-  top: 13rem;
+  top: 2rem;
   font-family: "IBM Plex Serif";
   background: transparent;
   color: white;
@@ -139,10 +139,10 @@ body {
   font-size: 17px;
 }
 
-.collapsiblecontent {
-  position: absolute;
+.secondcollapsible {
+  position: relative;
   left: 20px;
-  top: 20rem;
+  top: 5rem;
   font-family: "IBM Plex Serif";
   background: transparent;
   color: white;
@@ -163,7 +163,7 @@ body {
   border-radius: 10px;
 }
 
-.active, .collapsiblecontent:hover {
+.active, .secondcollapsible:hover {
   background-color: rgba(2,0,36,1);
   transition: 1.5s ease-out;
   -webkit-border-radius: 10px;
@@ -172,10 +172,10 @@ body {
 }
 
 .content {
-  top: 17rem;
+  top: 2.6rem;
   font-family: "IBM Plex Serif";
   color: white;
-  position:absolute;
+  position:relative;
   padding: 0 18px;
   left: 18px;
   width: 73%;
@@ -190,10 +190,10 @@ body {
 }
 
 .contentnav {
-  top: 24rem;
+  top: 5.1rem;
   font-family: "IBM Plex Serif";
   color: white;
-  position:absolute;
+  position:relative;
   padding: 0 18px;
   left: 18px;
   width: 73%;
@@ -217,7 +217,7 @@ body {
   transition: 1.5s ease-out;
 }
 
-.collapsiblecontent:after {
+.secondcollapsible:after {
   padding-top: 2px;
   content: '\02795';
   font-size: 13px;
@@ -322,11 +322,21 @@ body {
   background-repeat: no-repeat;
 }
 
-.goodtime {
+.her {
   position: absolute;
   top: 70rem;
   left: 1350px;
   width: 10%;
+  height: 26.3%;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+}
+
+.goodtime {
+  position: absolute;
+  top: 70rem;
+  left: 1400px;
+  width: 10.1%;
   border-radius: 4px;
   background-repeat: no-repeat;
 }
