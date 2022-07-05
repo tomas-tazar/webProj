@@ -47,6 +47,30 @@ body {
     z-index: 0;
     background: rgb(2,0,36);
     background: linear-gradient(146deg, rgba(2,0,36,1) 0%, rgba(53,53,70,1) 35%, rgba(37,44,46,1) 92%);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
 }
 
 .headerbutton {
@@ -246,17 +270,111 @@ body {
   text-align: left;
 }
 
-.subtext {
-  flex-wrap: wrap;
-  width: 89%;
-  position: absolute;
+.fullmsg {
+  top: 17.5rem;
+  left: 70px;
   font-family: "IBM Plex Serif";
-  font-size: 13px;
   color: white;
-  top: 30rem;
-  padding-left: 25px;
-  text-align: left;
+  font-size: 20px;
+  position: absolute;
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
 }
+
+.fullmsg {
+width:0px;
+animation: reveal 10s;
+animation-fill-mode: forwards;
+}
+
+.fullmsggaming {
+  top: 45rem;
+  left: 70px;
+  font-family: "IBM Plex Serif";
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.fullmsggaming {
+width:0px;
+animation: reveal 10s;
+animation-fill-mode: forwards;
+}
+
+.fullmsgmovies {
+  top: 70rem;
+  left: 70px;
+  font-family: "IBM Plex Serif";
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.fullmsgmovies {
+width:0px;
+animation: reveal 10s;
+animation-fill-mode: forwards;
+}
+
+@keyframes reveal {
+0% {opacity:0;width:0px;}
+20% {opacity:1;width:0px;}
+30% {width:355px;}
+80% {opacity:1;}
+100% {opacity:1;width:355px;}
+}
+
+.programming {
+  position: absolute;
+  top: 20rem;
+  left: 70px;
+  width: 50%;
+  border-radius: 4px;
+  color: white;
+  font-family: "IBM Plex Serif";
+  font-size: 15px;
+  background-color: rgba(11, 11, 12, 0.4);
+  text-align: left;
+  padding-left: 18px;
+}
+
+.gaming {
+  position: absolute;
+  top: 47.5rem;
+  left: 70px;
+  width: 50%;
+  border-radius: 4px;
+  color: white;
+  font-family: "IBM Plex Serif";
+  font-size: 15px;
+  background-color: rgba(11, 11, 12, 0.4);
+  text-align: left;
+  padding-left: 18px;
+
+}
+
+.movies {
+  position: absolute;
+  top: 72.5rem;
+  left: 70px;
+  width: 50%;
+  border-radius: 4px;
+  color: white;
+  font-family: "IBM Plex Serif";
+  font-size: 15px;
+  background-color: rgba(11, 11, 12, 0.4);
+  text-align: left;
+  padding-left: 18px;
+}
+
 
 .image {
   height: 50%;
@@ -264,7 +382,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 200px;
+  padding-bottom: 170px;
 }
 
 .monitor {
@@ -342,6 +460,8 @@ body {
   border-radius: 4px;
   background-repeat: no-repeat;
 }
+
+
 
 .footer {
   position: fixed;
