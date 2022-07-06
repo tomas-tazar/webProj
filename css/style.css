@@ -104,34 +104,75 @@ span:nth-child(1) {
   display: block;
   top: 200px;
   left: 20px;
-  background: url("../images/faceit.png");
+  background: url(../images/faceit.png);
   color: silver;
 }
 
 .esea {
   position: absolute;
-  top: 10rem;
+  height: 50px;
+  width: 50px;
+  display: block;
+  top: 200px;
+  left: 20px;
+  background: url("../images/faceit.png");
+  color: silver;
 }
 
 .steam {
-  top: 5rem;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  display: block;
+  top: 200px;
+  left: 20px;
+  background: url("../images/faceit.png");
+  color: silver;
 
 }
 
 .github2 {
-
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  display: block;
+  top: 200px;
+  left: 20px;
+  background: url("../images/faceit.png");
+  color: silver;
 }
 
 .linkedin {
-
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  display: block;
+  top: 200px;
+  left: 20px;
+  background: url("../images/faceit.png");
+  color: silver;
 }
 
 .gitlab {
-
-}
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  display: block;
+  top: 200px;
+  left: 20px;
+  background: url("../images/faceit.png");
+  color: silver;
+} 
 
 .letterboxd {
-
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  display: block;
+  top: 200px;
+  left: 20px;
+  background: url("../images/faceit.png");
+  color: silver;
 }
 
 
