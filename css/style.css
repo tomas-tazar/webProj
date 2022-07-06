@@ -269,7 +269,7 @@ span:nth-child(1) {
 
 .fullmsg {
   top: 17.5rem;
-  left: 70px;
+  left: 105px;
   font-family: "IBM Plex Serif";
   color: white;
   font-size: 20px;
@@ -287,7 +287,7 @@ animation-fill-mode: forwards;
 
 .fullmsggaming {
   top: 45rem;
-  left: 70px;
+  left: 105px;
   font-family: "IBM Plex Serif";
   color: white;
   font-size: 20px;
@@ -305,7 +305,7 @@ animation-fill-mode: forwards;
 
 .fullmsgmovies {
   top: 70rem;
-  left: 70px;
+  left: 105px;
   font-family: "IBM Plex Serif";
   color: white;
   font-size: 20px;
@@ -340,7 +340,7 @@ animation-fill-mode: forwards;
 .programming {
   position: absolute;
   top: 20rem;
-  left: 70px;
+  left: 100px;
   height: 180px;
   width: 950px;
   border-radius: 4px;
@@ -356,7 +356,7 @@ animation-fill-mode: forwards;
 .gaming {
   position: absolute;
   top: 47.5rem;
-  left: 70px;
+  left: 100px;
   width: 50%;
   border-radius: 4px;
   color: white;
@@ -371,7 +371,7 @@ animation-fill-mode: forwards;
 .movies {
   position: absolute;
   top: 72.5rem;
-  left: 70px;
+  left: 100px;
   width: 50%;
   border-radius: 4px;
   color: white;
@@ -389,22 +389,24 @@ animation-fill-mode: forwards;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 170px;
+  padding-bottom: 160px;
 }
 
 .monitor {
   position: absolute;
   top: 15rem;
-  left: 1180px;
+  left: 1300px;
   width: 20%;
   border-radius: 4px;
   background-repeat: no-repeat;
+  filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.2));
+
 }
 
 .workspace {
   position: absolute;
   top: 19.3rem;
-  left: 1210px;
+  left: 1330px;
   width: 16.9%;
   border-radius: 4px;
   background-repeat: no-repeat;
@@ -413,33 +415,14 @@ animation-fill-mode: forwards;
 .gpro {
   position: absolute;
   top: 45rem;
-  left: 1200px;
+  left: 1330px;
   width: 17%;
   border-radius: 4px;
   background-repeat: no-repeat;
+  filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
 }
 
 .tenet {
-  position: absolute;
-  top: 70rem;
-  left: 1200px;
-  width: 10%;
-  height: 26.3%;
-  border-radius: 4px;
-  background-repeat: no-repeat;
-}
-
-.bladerunner {
-  position: absolute;
-  top: 70rem;
-  left: 1250px;
-  width: 10%;
-  height: 26.3%;
-  border-radius: 4px;
-  background-repeat: no-repeat;
-}
-
-.goodtime {
   position: absolute;
   top: 70rem;
   left: 1300px;
@@ -449,7 +432,7 @@ animation-fill-mode: forwards;
   background-repeat: no-repeat;
 }
 
-.her {
+.bladerunner {
   position: absolute;
   top: 70rem;
   left: 1350px;
@@ -459,13 +442,34 @@ animation-fill-mode: forwards;
   background-repeat: no-repeat;
 }
 
-.interstellar {
+.goodtime {
   position: absolute;
   top: 70rem;
   left: 1400px;
+  width: 10%;
+  height: 26.3%;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+}
+
+.her {
+  position: absolute;
+  top: 70rem;
+  left: 1450px;
+  width: 10%;
+  height: 26.3%;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+}
+
+.interstellar {
+  position: absolute;
+  top: 70rem;
+  left: 1500px;
   width: 10.3%;
   border-radius: 4px;
   background-repeat: no-repeat;
+  filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.2));
 }
 
 
