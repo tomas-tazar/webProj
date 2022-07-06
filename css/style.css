@@ -97,6 +97,44 @@ span:nth-child(1) {
 
 }
 
+.faceit {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  display: block;
+  top: 200px;
+  left: 20px;
+  background: url("../images/faceit.png");
+  color: silver;
+}
+
+.esea {
+  position: absolute;
+  top: 10rem;
+}
+
+.steam {
+  top: 5rem;
+
+}
+
+.github2 {
+
+}
+
+.linkedin {
+
+}
+
+.gitlab {
+
+}
+
+.letterboxd {
+
+}
+
+
 .sidepanel {
   width: 0;
   height: 1080px;
