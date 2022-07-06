@@ -50,12 +50,6 @@ body {
     animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
 }
 
-@keyframes scale {
-  100% {
-    transform: scale(1);
-  }
-}
-
 span {
   display: inline-block;
   opacity: 0;
@@ -72,6 +66,9 @@ span:nth-child(1) {
     filter: blur(0);
   }
 }
+
+@keyframes typing { from { width: 0; } }
+@keyframes blink-caret { 50% { border-color: transparent; } }
 
 .headerbutton {
   position: relative;
@@ -332,11 +329,20 @@ animation-fill-mode: forwards;
 100% {opacity:1;width:355px;}
 }
 
+@keyframes revealtext {
+  0% {opacity:0;width:0px;}
+  20% {opacity:1;width:0px;}
+  30% {width:0pxpx;}
+  80% {opacity:1;}
+  100% {opacity:1;width:950px;}
+  }
+
 .programming {
   position: absolute;
   top: 20rem;
   left: 70px;
-  width: 50%;
+  height: 180px;
+  width: 950px;
   border-radius: 4px;
   color: white;
   font-family: "IBM Plex Serif";
@@ -344,6 +350,7 @@ animation-fill-mode: forwards;
   background-color: rgba(11, 11, 12, 0.4);
   text-align: left;
   padding-left: 18px;
+  overflow: hidden;
 }
 
 .gaming {
