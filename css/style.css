@@ -102,7 +102,7 @@ span:nth-child(1) {
   height: 28px;
   width: 28px;
   display: block;
-  top: 325px;
+  top: 355px;
   left: 1080px;
   background: url(../images/github.png);
   background-size: 100%;
@@ -114,7 +114,7 @@ span:nth-child(1) {
   height: 25px;
   width: 25px;
   display: block;
-  top: 390px;
+  top: 395px;
   left: 1080px;
   background: url(../images/linkedinb.png);
   background-size: 100%;
@@ -126,7 +126,7 @@ span:nth-child(1) {
   height: 40px;
   width: 40px;
   display: block;
-  top: 460px;
+  top: 425px;
   left: 1073px;
   background: url(../images/gitlabb.png);
   background-size: 100%;
@@ -135,11 +135,11 @@ span:nth-child(1) {
 
 .faceit {
   position: absolute;
-  height: 25px;
-  width: 25px;
-  top: 765px;
-  left: 1080px;
-  background: url(../images/faceitb.png);
+  height: 30px;
+  width: 30px;
+  top: 800px;
+  left: 1077.5px;
+  background: url(../images/faceitbr.png);
   background-size: 100%;
   color: silver;
 }
@@ -149,8 +149,8 @@ span:nth-child(1) {
   height: 20px;
   width: 25px;
   display: block;
-  top: 835px;
-  left: 1080px;
+  top: 837px;
+  left: 1082px;
   background: url(../images/eseab.png);
   background-size: 100%;
   color: silver;
@@ -161,7 +161,7 @@ span:nth-child(1) {
   height: 25px;
   width: 25px;
   display: block;
-  top: 905px;
+  top: 868px;
   left: 1080px;
   background: url(../images/steamb.png);
   background-size: 100%;
@@ -231,7 +231,7 @@ span:nth-child(1) {
   background-color: #111;
 }
 
-.collapsible {
+.firstcollapsible {
   position: relative;
   left: 75px;
   top: 2rem;
@@ -240,7 +240,23 @@ span:nth-child(1) {
   color: white;
   cursor: pointer;
   padding: 18px;
-  width: 27%;
+  width: 21%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 17px;
+}
+
+.collapsible {
+  position: relative;
+  left: 75px;
+  top: 5rem;
+  font-family: "IBM Plex Serif";
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 24%;
   border: none;
   text-align: left;
   outline: none;
@@ -250,13 +266,13 @@ span:nth-child(1) {
 .secondcollapsible {
   position: relative;
   left: 75px;
-  top: 5rem;
+  top: 8rem;
   font-family: "IBM Plex Serif";
   background: transparent;
   color: white;
   cursor: pointer;
   padding: 18px;
-  width: 18.5%;
+  width: 19.8%;
   border: none;
   text-align: left;
   outline: none;
@@ -279,7 +295,15 @@ span:nth-child(1) {
   border-radius: 10px;
 }
 
-.content {
+.active, .firstcollapsible:hover {
+  background-color: rgba(2,0,36,1);
+  transition: 1.5s ease-out;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.firstcontent {
   top: 2.1rem;
   font-family: "IBM Plex Serif";
   color: white;
@@ -297,7 +321,7 @@ span:nth-child(1) {
   border-radius: 10px;
 }
 
-.contentnav {
+.content {
   top: 5.1rem;
   font-family: "IBM Plex Serif";
   color: white;
@@ -315,8 +339,26 @@ span:nth-child(1) {
   border-radius: 10px;
 }
 
+.contentnav {
+  top: 8.1rem;
+  font-family: "IBM Plex Serif";
+  color: white;
+  position:relative;
+  padding: 0 18px;
+  left: 75px;
+  width: 70%;
+  text-align: left;
+  background-color: rgba(11, 11, 12, 0.4);
+  overflow:hidden;
+  max-height: 0px;
+  transition: max-height 0.3s ease-out;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
 .collapsible:after {
-  padding-top: 2px;
+  padding-top: 3px;
   content: '\02795';
   font-size: 13px;
   color: white;
@@ -326,11 +368,21 @@ span:nth-child(1) {
 }
 
 .secondcollapsible:after {
-  padding-top: 2px;
+  padding-top: 3px;
   content: '\02795';
   font-size: 13px;
   color: white;
   float: right;
+  transition: 1.5s ease-out;
+}
+
+.firstcollapsible:after {
+  padding-top: 3px;
+  content: '\02795';
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
   transition: 1.5s ease-out;
 }
 
