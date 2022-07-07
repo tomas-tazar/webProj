@@ -638,7 +638,7 @@ animation-fill-mode: forwards;
   text-align: center;
   width: 400px;
   height: 300px;
-  background-color: grey;
+  background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
 }
 
@@ -646,7 +646,7 @@ animation-fill-mode: forwards;
   text-align: center;
   width: 400px;
   height: 300px;
-  background-color: grey;
+  background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
 }
 
@@ -654,7 +654,7 @@ animation-fill-mode: forwards;
   text-align: center;
   width: 400px;
   height: 300px;
-  background-color: grey;
+  background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
 }
 
@@ -662,7 +662,7 @@ animation-fill-mode: forwards;
   text-align: center;
   width: 400px;
   height: 300px;
-  background-color: grey;
+  background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
 }
 
@@ -670,7 +670,7 @@ animation-fill-mode: forwards;
   text-align: center;
   width: 400px;
   height: 300px;
-  background-color: grey;
+  background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
 }
 
@@ -678,9 +678,26 @@ animation-fill-mode: forwards;
   text-align: center;
   width: 400px;
   height: 300px;
-  background-color: grey;
+  background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
   padding-bottom: 0;
+}
+
+.projinfo {
+  top: 8rem;
+  height: 150px;
+  width: 98%;
+  left: 20px;
+  background-color: rgba(11, 11, 12, 0.4);
+  font-family: "IBM Plex Serif";
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+  border-radius: 10px;
 }
 
 .footer {
