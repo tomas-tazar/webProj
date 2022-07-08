@@ -636,56 +636,62 @@ animation-fill-mode: forwards;
 
 .firstproj {
   text-align: center;
-  width: 400px;
+  width: 450px;
   height: 300px;
   background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
+  border-radius: 10px;
 }
 
 .secondproj {
   text-align: center;
-  width: 400px;
+  width: 450px;
   height: 300px;
   background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
+  border-radius: 10px;
 }
 
 .thirdproj {
   text-align: center;
-  width: 400px;
+  width: 450px;
   height: 300px;
   background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
+  border-radius: 10px;
 }
 
 .fourthproj {
   text-align: center;
-  width: 400px;
+  width: 450px;
   height: 300px;
   background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
+  border-radius: 10px;
 }
 
 .fifthproj {
   text-align: center;
-  width: 400px;
+  width: 450px;
   height: 300px;
   background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
+  border-radius: 10px;
 }
 
 .sixthproj {
   text-align: center;
-  width: 400px;
+  width: 450px;
   height: 300px;
   background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
   padding-bottom: 0;
+  border-radius: 10px;
 }
 
 .projinfo {
   top: 8rem;
-  height: 150px;
+  height: 120px;
   width: 98%;
   left: 20px;
   background-color: rgba(11, 11, 12, 0.4);
