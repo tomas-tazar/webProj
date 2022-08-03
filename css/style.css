@@ -624,20 +624,20 @@ animation-fill-mode: forwards;
 }
 
 .flex-container2 {
-  height: 100px;
+  height: 450px;
   width: 1920px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-bottom: 300px;
+  padding-bottom: 0px;
 }
 
 .firstproj {
   text-align: center;
-  width: 450px;
-  height: 300px;
+  width: 500px;
+  height: 350px;
   background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
   border-radius: 10px;
@@ -645,8 +645,8 @@ animation-fill-mode: forwards;
 
 .secondproj {
   text-align: center;
-  width: 450px;
-  height: 300px;
+  width: 500px;
+  height: 350px;
   background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
   border-radius: 10px;
@@ -654,8 +654,8 @@ animation-fill-mode: forwards;
 
 .thirdproj {
   text-align: center;
-  width: 450px;
-  height: 300px;
+  width: 500px;
+  height: 350px;
   background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
   border-radius: 10px;
@@ -663,8 +663,8 @@ animation-fill-mode: forwards;
 
 .fourthproj {
   text-align: center;
-  width: 450px;
-  height: 300px;
+  width: 500px;
+  height: 350px;
   background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
   border-radius: 10px;
@@ -672,8 +672,8 @@ animation-fill-mode: forwards;
 
 .fifthproj {
   text-align: center;
-  width: 450px;
-  height: 300px;
+  width: 500px;
+  height: 350px;
   background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
   border-radius: 10px;
@@ -681,39 +681,160 @@ animation-fill-mode: forwards;
 
 .sixthproj {
   text-align: center;
-  width: 450px;
-  height: 300px;
+  width: 500px;
+  height: 350px;
   background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
   padding-bottom: 0;
   border-radius: 10px;
 }
 
-.popup {
+.popup{
   position: relative;
   display: inline-block;
   cursor: pointer;
+  text-align: center;
+}
+
+.popup2{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.popup3{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.popup4{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.popup5{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.popup6{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
 }
 
 .popup .popuptext {
   visibility: hidden;
-  width: 200px;
-  height: 100px;
-  background-color: #555;
+  text-align: center;
+  top: -18rem;
+  width: 1600px;
+  height: 1200px;
+  background-color: rgba(11, 11, 12, 0.9);
   color: #fff;
   text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
+  border-radius: 20px;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
   left: 50%;
-  margin-left: -80px;
+  right: 50%;
+  margin-left: -210px;
+}
+
+.popup2 .popuptext {
+  visibility: hidden;
+  text-align: center;
+  top: -18rem;
+  width: 1600px;
+  height: 1200px;
+  background-color: rgba(11, 11, 12, 0.9);
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  right: 50%;
+  margin-left: -210px;
+}
+
+.popup3 .popuptext {
+  visibility: hidden;
+  text-align: center;
+  top: -18rem;
+  width: 1600px;
+  height: 1200px;
+  background-color: rgba(11, 11, 12, 0.9);
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  right: 50%;
+  margin-left: -210px;
+}
+
+.popup4 .popuptext {
+  visibility: hidden;
+  text-align: center;
+  top: -18rem;
+  width: 1600px;
+  height: 1200px;
+  background-color: rgba(11, 11, 12, 0.9);
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  right: 50%;
+  margin-left: -210px;
+}
+
+.popup5 .popuptext {
+  visibility: hidden;
+  text-align: center;
+  top: -18rem;
+  width: 1600px;
+  height: 1200px;
+  background-color: rgba(11, 11, 12, 0.9);
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  right: 50%;
+  margin-left: -210px;
+}
+
+.popup6 .popuptext {
+  visibility: hidden;
+  text-align: center;
+  top: -18rem;
+  width: 1600px;
+  height: 1200px;
+  background-color: rgba(11, 11, 12, 0.9);
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  right: 50%;
+  margin-left: -210px;
 }
 
 .popup .show {
   visibility: visible;
-  animation: fadeIn 1s;
 }
 
 @-webkit-keyframes fadeIn {
