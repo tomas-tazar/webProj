@@ -42,8 +42,18 @@
     </div>
     
     <main>
+
+    <div class="popup">
+        <button id="close">&times;</button>
+        <h2> project 1 </h2>
+        <p> blah blah </p>
+        <a id="link" href="#"> Link to proj </a>
+    </div>
+
     <div class="flex-container">
-        <div class="firstproj"></div>
+        <div class="firstproj" onclick="openProjectDetails()">
+            <span class="popuptext" id="myPopup"> 123 </h2>
+        </div>
         <div class="secondproj"></div>
         <div class="thirdproj"></div>
     </div>
@@ -53,6 +63,8 @@
         <div class="fifthproj"></div>
         <div class="sixthproj"></div>
     </div>
+
+    
 
 
     <div id="popout" class="sidepanel"> 
@@ -68,4 +80,15 @@
         <h2>&copy; Tomas Tazar</h2>
     </div>
     </main>
+
+    <script>
+        function openProjectDetails() {
+            var openpopup = document.getElementsByClassName("popup");
+            openpopup.classList.toggle("show");
+        }
+
+        document.querySelector("#close").addEventListener("click", function(){
+        document.querySelector(".popup").style.display = "none";
+        });
+    </script>
 </body>
