@@ -38,34 +38,51 @@
     </header>
 
     <div class="projinfo">
-        <p> quick info abt projects </p>
+        <p> projects </p>
     </div>
     
     <main>
 
-    <div class="popup">
-        <button id="close">&times;</button>
-        <h2> project 1 </h2>
-        <p> blah blah </p>
-        <a id="link" href="#"> Link to proj </a>
-    </div>
 
     <div class="flex-container">
-        <div class="firstproj" onclick="openProjectDetails()">
-            <span class="popuptext" id="myPopup"> 123 </h2>
+        <div class="firstproj">
+            <div class="popup" onclick="myFunction()">Project 1
+                <span class="popuptext" id="myPopup1">Popup text...</span>
+            </div>
         </div>
-        <div class="secondproj"></div>
-        <div class="thirdproj"></div>
+
+        <div class="secondproj">
+            <div class="popup" onclick="myFunction()">Project 2
+                <span class="popuptext" id="myPopup2">Popup text...</span>
+            </div>
+        </div>
+
+        <div class="thirdproj">
+            <div class="popup" onclick="myFunction()">Project 3
+                <span class="popuptext" id="myPopup3">Popup text...</span>
+            </div>
+        </div>
     </div>
 
     <div class="flex-container2">
-        <div class="fourthproj"></div>
-        <div class="fifthproj"></div>
-        <div class="sixthproj"></div>
+        <div class="fourthproj">
+            <div class="popup" onclick="myFunction()">Project 4
+                <span class="popuptext" id="myPopup4">Popup text...</span>
+            </div>
+        </div>
+
+        <div class="fifthproj">
+            <div class="popup" onclick="myFunction()">Project 5
+                <span class="popuptext" id="myPopup5">Popup text...</span>
+            </div>
+        </div>
+
+        <div class="sixthproj">
+            <div class="popup" onclick="myFunction()">Project 6
+                <span class="popuptext" id="myPopup6">Popup text...</span>
+            </div>
+        </div>
     </div>
-
-    
-
 
     <div id="popout" class="sidepanel"> 
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -82,13 +99,9 @@
     </main>
 
     <script>
-        function openProjectDetails() {
-            var openpopup = document.getElementsByClassName("popup");
-            openpopup.classList.toggle("show");
+        function myFunction() {
+            var popup = document.getElementById("myPopup1");
+            popup.classList.toggle("show");
         }
-
-        document.querySelector("#close").addEventListener("click", function(){
-        document.querySelector(".popup").style.display = "none";
-        });
     </script>
 </body>
