@@ -729,6 +729,7 @@ animation-fill-mode: forwards;
   display: inline-block;
   cursor: pointer;
   text-align: center;
+  
 }
 
 
@@ -746,7 +747,12 @@ animation-fill-mode: forwards;
   z-index: 1;
   left: 50%;
   right: 50%;
-  margin-left: -210px;
+  margin-left: -200px;
+}
+
+.spancontent {
+  font-family: "IBM Plex Serif";
+  color: white;
 }
 
 .popup2 .popuptext2 {
@@ -763,7 +769,7 @@ animation-fill-mode: forwards;
   z-index: 1;
   left: 50%;
   right: 50%;
-  margin-left: -0px;
+  margin-left: -800px;
 }
 
 .popup3 .popuptext3 {
@@ -780,13 +786,13 @@ animation-fill-mode: forwards;
   z-index: 1;
   left: 50%;
   right: 50%;
-  margin-left: -210px;
+  margin-left: -1400px;
 }
 
 .popup4 .popuptext4 {
   visibility: hidden;
   text-align: center;
-  top: -18rem;
+  top: -44.5rem;
   width: 1600px;
   height: 1200px;
   background-color: rgba(11, 11, 12, 0.9);
@@ -797,13 +803,13 @@ animation-fill-mode: forwards;
   z-index: 1;
   left: 50%;
   right: 50%;
-  margin-left: -210px;
+  margin-left: -200px;
 }
 
 .popup5 .popuptext5 {
   visibility: hidden;
   text-align: center;
-  top: -18rem;
+  top: -44.5rem;
   width: 1600px;
   height: 1200px;
   background-color: rgba(11, 11, 12, 0.9);
@@ -814,13 +820,13 @@ animation-fill-mode: forwards;
   z-index: 1;
   left: 50%;
   right: 50%;
-  margin-left: -210px;
+  margin-left: -800px;
 }
 
 .popup6 .popuptext6 {
   visibility: hidden;
   text-align: center;
-  top: -18rem;
+  top: -44.5rem;
   width: 1600px;
   height: 1200px;
   background-color: rgba(11, 11, 12, 0.9);
@@ -831,7 +837,7 @@ animation-fill-mode: forwards;
   z-index: 1;
   left: 50%;
   right: 50%;
-  margin-left: -210px;
+  margin-left: -1400px;
 }
 
 .popup .show {
