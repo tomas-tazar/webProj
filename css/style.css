@@ -731,6 +731,7 @@ animation-fill-mode: forwards;
   text-align: center;
 }
 
+
 .popup .popuptext {
   visibility: hidden;
   text-align: center;
@@ -748,7 +749,24 @@ animation-fill-mode: forwards;
   margin-left: -210px;
 }
 
-.popup2 .popuptext {
+.popup2 .popuptext2 {
+  visibility: hidden;
+  text-align: center;
+  top: -18rem;
+  width: 1600px;
+  height: 1200px;
+  background-color: rgba(11, 11, 12, 0.9);
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  right: 50%;
+  margin-left: -0px;
+}
+
+.popup3 .popuptext3 {
   visibility: hidden;
   text-align: center;
   top: -18rem;
@@ -765,7 +783,7 @@ animation-fill-mode: forwards;
   margin-left: -210px;
 }
 
-.popup3 .popuptext {
+.popup4 .popuptext4 {
   visibility: hidden;
   text-align: center;
   top: -18rem;
@@ -782,7 +800,7 @@ animation-fill-mode: forwards;
   margin-left: -210px;
 }
 
-.popup4 .popuptext {
+.popup5 .popuptext5 {
   visibility: hidden;
   text-align: center;
   top: -18rem;
@@ -799,24 +817,7 @@ animation-fill-mode: forwards;
   margin-left: -210px;
 }
 
-.popup5 .popuptext {
-  visibility: hidden;
-  text-align: center;
-  top: -18rem;
-  width: 1600px;
-  height: 1200px;
-  background-color: rgba(11, 11, 12, 0.9);
-  color: #fff;
-  text-align: center;
-  border-radius: 20px;
-  position: absolute;
-  z-index: 1;
-  left: 50%;
-  right: 50%;
-  margin-left: -210px;
-}
-
-.popup6 .popuptext {
+.popup6 .popuptext6 {
   visibility: hidden;
   text-align: center;
   top: -18rem;
@@ -834,6 +835,26 @@ animation-fill-mode: forwards;
 }
 
 .popup .show {
+  visibility: visible;
+}
+
+.popup2 .show {
+  visibility: visible;
+}
+
+.popup3 .show {
+  visibility: visible;
+}
+
+.popup4 .show {
+  visibility: visible;
+}
+
+.popup5 .show {
+  visibility: visible;
+}
+
+.popup6 .show {
   visibility: visible;
 }
 
