@@ -641,7 +641,11 @@ animation-fill-mode: forwards;
   background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
   border-radius: 10px;
+  bottom: 0px;
+  color: gray;
+  font-family: "IBM Plex Serif";
 }
+
 
 .secondproj {
   text-align: center;
@@ -650,6 +654,8 @@ animation-fill-mode: forwards;
   background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
   border-radius: 10px;
+  color: gray;
+  font-family: "IBM Plex Serif";
 }
 
 .thirdproj {
@@ -659,6 +665,8 @@ animation-fill-mode: forwards;
   background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
   border-radius: 10px;
+  color: gray;
+  font-family: "IBM Plex Serif";
 }
 
 .fourthproj {
@@ -668,6 +676,9 @@ animation-fill-mode: forwards;
   background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
   border-radius: 10px;
+  bottom: 0px;
+  color: gray;
+  font-family: "IBM Plex Serif";
 }
 
 .fifthproj {
@@ -677,6 +688,9 @@ animation-fill-mode: forwards;
   background-color: rgba(11, 11, 12, 0.4);
   margin: 0 50px;
   border-radius: 10px;
+  bottom: 0px;
+  color: gray;
+  font-family: "IBM Plex Serif";
 }
 
 .sixthproj {
@@ -687,6 +701,9 @@ animation-fill-mode: forwards;
   margin: 0 50px;
   padding-bottom: 0;
   border-radius: 10px;
+  bottom: 0px;
+  color: gray;
+  font-family: "IBM Plex Serif";
 }
 
 .popup{
