@@ -42,6 +42,7 @@ body {
     left: 0;
     height: 4vw;
     text-align: left;
+    padding-left: 75px;
     text-indent: 20px;
     color: white;
     z-index: 0;
@@ -646,6 +647,25 @@ animation-fill-mode: forwards;
   font-family: "IBM Plex Serif";
 }
 
+.cover {
+  position: flex;
+  width: 500px;
+  height: 75px;
+  border-radius: 10px;
+  position: absolute;
+  background: linear-gradient(146deg, rgba(2,0,36,1) 0%, rgb(39, 39, 77) 35%, rgb(33, 35, 44) 92%);
+  left: -153px;
+  top: 17.2rem;
+}
+
+.banner {
+  text-align: center;
+  position: relative;
+  color: white;
+  top: 19rem;
+  border-radius: 10px;
+} 
+
 
 .secondproj {
   text-align: center;
@@ -658,6 +678,17 @@ animation-fill-mode: forwards;
   font-family: "IBM Plex Serif";
 }
 
+.cover2 {
+  position: flex;
+  width: 500px;
+  height: 75px;
+  border-radius: 10px;
+  position: absolute;
+  background: linear-gradient(146deg, rgba(2,0,36,1) 0%, rgb(39, 39, 77) 35%, rgb(33, 35, 44) 92%);
+  left: -221px;
+  top: 17.2rem;
+}
+
 .thirdproj {
   text-align: center;
   width: 500px;
@@ -667,6 +698,17 @@ animation-fill-mode: forwards;
   border-radius: 10px;
   color: gray;
   font-family: "IBM Plex Serif";
+}
+
+.cover3 {
+  position: flex;
+  width: 500px;
+  height: 75px;
+  border-radius: 10px;
+  position: absolute;
+  background: linear-gradient(146deg, rgba(2,0,36,1) 0%, rgb(39, 39, 77) 35%, rgb(33, 35, 44) 92%);
+  left: -156px;
+  top: 17.2rem;
 }
 
 .fourthproj {
@@ -681,6 +723,17 @@ animation-fill-mode: forwards;
   font-family: "IBM Plex Serif";
 }
 
+.cover4 {
+  position: flex;
+  width: 500px;
+  height: 75px;
+  border-radius: 10px;
+  position: absolute;
+  background: linear-gradient(146deg, rgba(2,0,36,1) 0%, rgb(39, 39, 77) 35%, rgb(33, 35, 44) 92%);
+  left: -234px;
+  top: 17.2rem;
+}
+
 .fifthproj {
   text-align: center;
   width: 500px;
@@ -691,6 +744,17 @@ animation-fill-mode: forwards;
   bottom: 0px;
   color: gray;
   font-family: "IBM Plex Serif";
+}
+
+.cover5 {
+  position: flex;
+  width: 500px;
+  height: 75px;
+  border-radius: 10px;
+  position: absolute;
+  background: linear-gradient(146deg, rgba(2,0,36,1) 0%, rgb(39, 39, 77) 35%, rgb(33, 35, 44) 92%);
+  left: -234px;
+  top: 17.2rem;
 }
 
 .sixthproj {
@@ -704,6 +768,17 @@ animation-fill-mode: forwards;
   bottom: 0px;
   color: gray;
   font-family: "IBM Plex Serif";
+}
+
+.cover6 {
+  position: flex;
+  width: 500px;
+  height: 75px;
+  border-radius: 10px;
+  position: absolute;
+  background: linear-gradient(146deg, rgba(2,0,36,1) 0%, rgb(39, 39, 77) 35%, rgb(33, 35, 44) 92%);
+  left: -234px;
+  top: 17.2rem;
 }
 
 .popup{
@@ -749,7 +824,6 @@ animation-fill-mode: forwards;
   
 }
 
-
 .popup .popuptext {
   visibility: hidden;
   text-align: center;
@@ -767,9 +841,20 @@ animation-fill-mode: forwards;
   margin-left: -200px;
 }
 
-.spancontent {
+.spancontent p{
   font-family: "IBM Plex Serif";
   color: white;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 15px;
+  text-size-adjust: 200%;
+}
+.spancontent h1{
+  font-family: "IBM Plex Serif";
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  text-size-adjust: 200%;
 }
 
 .popup2 .popuptext2 {
